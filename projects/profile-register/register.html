@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>โปรไฟล์ของฉัน</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>กรธวัฒณ์ อุษาวัฒนากุล</h1>
+        <p class="tagline">นักเรียนสายเว็บ ET32203</p>
+    </header>
+    <nav>
+        <a href="index.html">โปรไฟล์</a>
+        <a href="register.html">สมัครชมรม</a>
+    </nav>
+    
+    <main>
+
+        <h2>สมัครชมรม</h2>
+
+<form medtod="get">
+    <label for="fullname">ชื่อ-นามสกุล</label>
+    <input type="text" id="fullname"
+    name="fullname" required>
+
+    <label for="email">อีเมล</label>
+    <input type="email" id="email"
+    name="email" required>
+
+<p>ระดับชั้น</p>
+    <input type="radio" id="m4" name="grade"
+       value="m4" required>
+    <label for="m4">ม.4</label>
+
+    <input type="radio" id="m5" name="grade"
+       value="m5">
+    <label for="m5">ม.5</label>
+
+    <label for="time">ว่างช่วงไหน</label>
+    <select id="time" name="time">
+    <option value="mon">จันทร์ หลังเลิกเรียน</option>
+    <option value="wed">พุธ หลังเลิกเรียน</option>
+    </select>
+
+    <label for="reason">ทำไมอยากเข้าชมรม</label>
+    <textarea id="reason" name="reason"
+          rows="4" required></textarea>
+
+    <label for="reason">สิ่งที่คาดหวังหลังจากได้เข้าชมรม</label>
+    <textarea id="reason" name="reason"
+          rows="4" required></textarea>
+
+          <button type="submit">สมัคร</button>
+          <p><a href="../../index.html">← กลับหน้าพอร์ต</a></p>
+    </form>
+</main>
+
+   <footer>
+        <p>ติดต่อ: korntawat.usaw@dome.tu.ac.th</p>
+    </footer>
+    
+</body>
+</html>
